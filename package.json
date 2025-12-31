@@ -13,8 +13,9 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-  
-  },
-  "homepage": "https://github.com/Yas5584/Custom-Youtube-App#readme"
+  "bugs": {},
+  "homepage": "https://github.com/Yas5584/Custom-Youtube-App#readme",
+  "dependencies": {
+    "prettier": "^3.7.4"
+  }
 }
