@@ -10,11 +10,9 @@
     "watch": "tsc -w",
     "dev": "tsx watch src/index.js"
   },
-
   "author": "",
   "license": "ISC",
   "bugs": {},
- 
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.10",
     "bcrypt": "^6.0.0",
@@ -28,6 +26,8 @@
     "mongoose-aggregate-paginate-v2": "^1.1.4",
     "multer": "^2.0.2",
     "prettier": "^3.7.4",
-    "tsx": "^4.21.0"
+    "tsc": "^2.0.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }
