@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 import { app } from "./app.js"
 
 dotenv.config({
-    path: './env'
+    path: './.env'
 })
 connectDB()
 .then(()=>{
@@ -41,7 +41,8 @@ connectDB()
 
 
 
-
+    // "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+     // "test": "echo\"no test required \" && exit 0"
 
 
 
